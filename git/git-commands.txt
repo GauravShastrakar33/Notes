@@ -102,6 +102,14 @@ Usage: After committing locally, use this to share your changes with others by s
 git push origin main  # Push changes to the "main" branch
 ________________________________________________________________________________________________________________________
 
+6) git rm --cached filename
+
+ex. git rm --cached .DS_Store 
+
+removes file from staging area then we can commit to local repository and we can push to remote repository
+
+________________________________________________________________________________________________________________________
+
 6) git restore
 _______________
 Purpose: Used to undo changes in the working directory and the staging area.
